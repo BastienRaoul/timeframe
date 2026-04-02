@@ -3,7 +3,7 @@
 module VisionectProtocol
   # Minimal LZ4 block encoder/decoder compatible with the standard LZ4 block format.
   # Produces output identical to Python's lz4.block.compress(store_size=False).
-  module LZ4Block
+  module Lz4Block
     HASH_LOG = 12
     HASH_SIZE = 1 << HASH_LOG
     MIN_MATCH = 4
